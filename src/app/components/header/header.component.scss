@@ -1,0 +1,15 @@
+:host {
+  background-color: var(--dark-theme-header-background-color);
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    .logo {
+      height: 40px !important;
+    }
+  }
+}
