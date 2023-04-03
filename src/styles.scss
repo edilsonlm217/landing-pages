@@ -5,3 +5,26 @@ body {
   background-color: var(--dark-theme-body-background-color);
   color: var(--dark-theme-text-color--default);
 }
+
+:root {
+  --dark-theme-header-background-color: #181818;
+  --dark-theme-footer-background-color: #2C2C2C;
+  --dark-theme-body-background-color: #1C1C1C;
+
+  --theme-font-size--default: 1rem; // 16px
+  --theme-font-size-xxxs: 0.75rem; // 12px
+  --theme-font-size-xxs: 1rem; // 16px
+  --theme-font-size-xs: 1.25rem; // 20px
+  --theme-font-size-sm: 1.5rem; // 24px
+  --theme-font-size-md: 1.75rem; // 28px
+  --theme-font-size-lg: 2rem; // 32px
+  --theme-font-size-xl: 2.25rem; // 36px
+  --theme-font-size-xxl: 3rem; // 48px
+
+  --theme-font-weight-light: 300;
+  --theme-font-weight-regular: 400;
+  --theme-font-weight-medium: 500;
+  --theme-font-weight-bold: 700;
+
+  --dark-theme-text-color--default: #FFFFFF;
+}
