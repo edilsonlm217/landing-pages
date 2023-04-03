@@ -1,0 +1,13 @@
+:host {
+  background-color: var(--dark-theme-footer-background-color);
+
+  footer {
+    font-size: var(--theme-font-size-xxxs);
+    font-weight: var(--theme-font-weight-light);
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
