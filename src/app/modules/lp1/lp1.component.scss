@@ -1,0 +1,20 @@
+section.hero-section {
+  padding: 2rem;
+
+  background-image: url('../../assets/lp1-hero-banner.png');
+  background-size: cover;
+
+  h1.app-Heading {
+    line-height: var(--theme-font-line-height-xl);
+    margin-bottom: 3.75rem;
+  }
+
+  p.first-paragraph {
+    margin-bottom: 1.75rem;
+  }
+
+  p.second-paragraph {
+    margin-bottom: 3rem;
+  }
+
+}
