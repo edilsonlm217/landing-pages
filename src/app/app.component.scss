@@ -2,26 +2,26 @@
   display: grid;
 
   grid-template-areas:
-      "header"
-      "main"
-      "footer";
+    "header"
+    "main"
+    "footer";
 
   grid-template-rows: 70px 1fr 50px;
 
   min-height: 100vh;
 
   #header-container {
-      grid-area: header;
-      position: sticky;
-      top: 0;
-      z-index: 1;
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
 
   main {
-      grid-area: main;
+    grid-area: main;
   }
 
   footer {
-      grid-area: footer;
+    grid-area: footer;
   }
 }
