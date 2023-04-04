@@ -1,4 +1,5 @@
 @use 'styles/reset.scss';
+@use 'styles/app-components.scss';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -45,25 +46,4 @@ body {
   --theme-border-radius-sm: 0.5rem;
   --theme-border-radius-md: 1rem;
   --theme-border-radius-lg: 1.5rem;
-}
-
-.app-Heading {
-  font-size: var(--theme-font-size-lg);
-  font-weight: var(--theme-font-weight-bold);
-}
-
-.app-Subtitle {
-  font-size: var(--theme-font-size--default);
-  font-weight: var(--theme-font-weight-regular);
-  line-height: var(--theme-font-line-height-xxs);
-}
-
-.app-Button {
-  background-color: var(--theme-background-color-Button);
-  border: none;
-  border-radius: var(--theme-border-radius-sm);
-  padding: 12px;
-  width: 100%;
-  font-weight: var(--theme-font-weight-bold);
-  cursor: pointer;
 }
