@@ -1,3 +1,5 @@
+@import 'variables';
+
 .app-Heading {
   font-size: var(--theme-font-size-lg);
   font-weight: var(--theme-font-weight-bold);
@@ -17,4 +19,35 @@
   width: 100%;
   font-weight: var(--theme-font-weight-bold);
   cursor: pointer;
+}
+
+.app-Content-Container {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+
+  @media screen and (max-width: $grid-breakpoints-sm) {
+    border: 1px solid red;
+    padding: 0 1rem;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-sm) and (max-width: $grid-breakpoints-md) {
+    border: 1px solid blue;
+    padding: 0 2rem;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-md) and (max-width: $grid-breakpoints-lg) {
+    border: 1px solid green;
+    padding: 0 3rem;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-lg) and (max-width: $grid-breakpoints-xl) {
+    border: 1px solid yellow;
+    padding: 0 4rem;
+  }
+
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    border: 1px solid blueviolet;
+    padding: 0 0;
+  }
 }
