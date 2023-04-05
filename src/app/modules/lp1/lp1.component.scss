@@ -1,33 +1,47 @@
-// section.hero-section {
-//   padding: 2rem;
-
-//   background-image: url('../../assets/lp1-hero-banner.png');
-//   background-size: cover;
-
-//   display: flex;
-//   justify-content: center;
-
-//   #content-container {
-//     max-width: 72rem;
-
-//     h1.app-Heading {
-//       line-height: var(--theme-font-line-height-xl);
-//       margin-bottom: 3.75rem;
-//     }
-
-//     p.first-paragraph {
-//       margin-bottom: 1.75rem;
-//     }
-
-//     p.second-paragraph {
-//       margin-bottom: 3rem;
-//     }
-//   }
-// }
-
+@import '../../../styles/breakpoints.scss';
 
 section.hero-section {
   width: 100%;
   background-image: url('../../assets/lp1-hero-banner.png');
   background-size: cover;
+
+  div.app-Content-Container {
+    display: flex;
+    flex-direction: column;
+
+    h1.app-Heading {
+      line-height: var(--theme-font-line-height-xl);
+      margin-top: 3rem;
+      margin-bottom: 3.75rem;
+    }
+
+    p.first-paragraph {
+      margin-bottom: 1.75rem;
+    }
+
+    p.second-paragraph {
+      margin-bottom: 3rem;
+    }
+
+    button.app-Button {
+      margin-bottom: 4rem;
+    }
+
+    h1.app-Heading,
+    p.first-paragraph,
+    p.second-paragraph,
+    button.app-Button {
+      max-width: 500px;
+      align-self: center;
+    }
+
+    @media screen and (min-width: $grid-breakpoints-sm) {
+
+      h1.app-Heading,
+      p.first-paragraph,
+      p.second-paragraph {
+        text-align: center;
+      }
+    }
+  }
 }
