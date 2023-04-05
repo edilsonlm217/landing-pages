@@ -45,3 +45,33 @@ section#hero-section {
     }
   }
 }
+
+section#vantagem-section {
+  ul.vantagem-list {
+    li:nth-child(odd) {
+      background-color: var(--dark-theme-header-background-color);
+    }
+
+    li {
+      div.app-Content-Container {
+        padding: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1.app-Heading {
+          margin-bottom: 1rem;
+        }
+
+        h1.app-Heading,
+        p.app-Subtitle {
+          max-width: 450px;
+        }
+      }
+    }
+
+
+  }
+}
