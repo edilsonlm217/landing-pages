@@ -1,9 +1,5 @@
 @import 'breakpoints.scss';
-
-.app-Heading {
-  font-size: var(--theme-font-size-lg);
-  font-weight: var(--theme-font-weight-bold);
-}
+@import 'components/heading.scss';
 
 .app-Subtitle {
   font-size: var(--theme-font-size--default);
