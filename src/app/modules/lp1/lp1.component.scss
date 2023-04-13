@@ -73,3 +73,43 @@ section#vantagem-section {
     }
   }
 }
+
+section#perguntas-frequentes-section {
+  margin-bottom: 2rem;
+  div.app-Content-Container {
+
+    h1.app-Heading {
+      margin-top: 1rem;
+
+      @media screen and (min-width: $grid-breakpoints-sm) {
+        text-align: center;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+
+      margin-top: 2rem;
+
+      li {
+        p.pergunta {
+          margin-bottom: 1.5rem;
+        }
+
+        p.resposta {
+          background-color: var(--dark-theme-footer-background-color);
+          padding: 1rem;
+          border-radius: 8px;
+        }
+
+        p.pergunta,
+        p.resposta {
+          max-width: 450px;
+        }
+      }
+    }
+  }
+}
