@@ -1,3 +1,29 @@
 <div id="vagas-limitadas-alert">
   Vagas limitadas!
 </div>
+
+<cdk-accordion class="example-accordion">
+  <cdk-accordion-item *ngFor="let item of items; let index = index;"
+    #accordionItem="cdkAccordionItem" class="example-accordion-item"
+    role="button" tabindex="0" [attr.id]="'accordion-header-' + index"
+    [attr.aria-expanded]="accordionItem.expanded"
+    [attr.aria-controls]="'accordion-body-' + index">
+    <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
+      <h1 class="app-Heading app-Heading-sm">
+        {{ item }}
+      </h1>
+      <span class="example-accordion-item-description">
+        <mat-icon *ngIf="accordionItem.expanded === false">expand_more</mat-icon>
+        <mat-icon *ngIf="accordionItem.expanded === true">expand_less</mat-icon>
+      </span>
+    </div>
+    <div class="example-accordion-item-body" role="region"
+      [style.display]="accordionItem.expanded ? '' : 'none'"
+      [attr.id]="'accordion-body-' + index"
+      [attr.aria-labelledby]="'accordion-header-' + index">
+      Devido ao alto valor que nosso software oferece e à sua exclusividade,
+      estamos limitando as vagas para garantir que possamos oferecer um serviço
+      personalizado e atencioso a cada cliente.
+    </div>
+  </cdk-accordion-item>
+</cdk-accordion>
