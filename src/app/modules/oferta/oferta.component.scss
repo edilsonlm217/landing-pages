@@ -41,3 +41,54 @@ section#bonus-exclusivos-section {
     gap: 1rem;
   }
 }
+
+#cta-container {
+  padding: 1rem;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+
+  div.container {
+    border: 1px solid var(--theme-background-color-Button);
+    border-radius: 8px;
+
+    div.section-container {
+      display: flex;
+      flex-direction: row;
+
+      section#preco-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 1rem;
+        width: 100%;
+        background-color: #131313;
+        border-top-left-radius: 8px;
+
+        span {
+          font-size: var(--theme-font-size-sm);
+          font-weight: var(--theme-font-weight-medium);
+          line-height: var(--theme-font-line-height-sm);
+        }
+      }
+
+      section#desconto-section {
+        padding: 1rem;
+        width: fit-content;
+        margin: auto;
+
+        h1 {
+          text-align: center;
+          white-space: nowrap;
+          font-weight: var(--theme-font-weight-medium);
+        }
+      }
+    }
+
+    button.app-Button {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+  }
+}
