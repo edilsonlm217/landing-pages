@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { OfertaRoutingModule } from './oferta-routing.module';
 import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { OfertaComponent } from './oferta.component';
+import { MatIconModule } from '@angular/material/icon'
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { OfertaComponent } from './oferta.component';
     CommonModule,
     OfertaRoutingModule,
     CdkAccordionModule,
+    MatIconModule
   ]
 })
 export class OfertaModule { }
