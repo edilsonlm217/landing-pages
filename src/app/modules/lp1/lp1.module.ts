@@ -1,4 +1,4 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { Lp1RoutingModule } from './lp1-routing.module';
@@ -13,6 +13,5 @@ import { Lp1Component } from './lp1.component';
     CommonModule,
     Lp1RoutingModule
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class Lp1Module { }
