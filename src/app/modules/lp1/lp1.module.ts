@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { Lp1RoutingModule } from './lp1-routing.module';
 import { Lp1Component } from './lp1.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { Lp1Component } from './lp1.component';
   ],
   imports: [
     CommonModule,
-    Lp1RoutingModule
+    Lp1RoutingModule,
+    SlickCarouselModule,
   ],
 })
 export class Lp1Module { }
