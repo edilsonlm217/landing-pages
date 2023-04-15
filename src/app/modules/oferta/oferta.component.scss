@@ -26,6 +26,12 @@ div#vagas-limitadas-alert {
   justify-content: space-between;
 }
 
+.example-accordion-item-body {
+  p {
+    margin-top: 1rem
+  }
+}
+
 .example-accordion-item-description {
   margin: auto 0;
 }
