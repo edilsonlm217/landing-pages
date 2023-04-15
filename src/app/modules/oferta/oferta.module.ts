@@ -6,7 +6,6 @@ import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { OfertaComponent } from './oferta.component';
 import { MatIconModule } from '@angular/material/icon'
 
-
 @NgModule({
   declarations: [
     OfertaComponent,
