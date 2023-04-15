@@ -76,6 +76,7 @@ section#vantagem-section {
 
 section#perguntas-frequentes-section {
   margin-bottom: 2rem;
+
   div.app-Content-Container {
 
     h1.app-Heading {
@@ -115,5 +116,19 @@ section#perguntas-frequentes-section {
 }
 
 section#conheca-o-app-section {
-  padding-bottom: 2rem;
+  padding: 1.5rem 0;
+
+  div.app-Content-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button.app-Button {
+      margin-top: 3.5rem;
+      margin-bottom: 0rem;
+
+      max-width: 500px;
+    }
+  }
 }
