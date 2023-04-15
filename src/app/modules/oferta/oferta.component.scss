@@ -1,3 +1,5 @@
+@import '../../../styles/breakpoints.scss';
+
 div#vagas-limitadas-alert {
   background-color: var(--theme-background-color-Alert);
   padding: 8px;
@@ -29,17 +31,13 @@ div#vagas-limitadas-alert {
 }
 
 section#bonus-exclusivos-section {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 1rem;
 
-  div.app-Content-Container {
-    ul {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      li {
-
-      }
-    }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
