@@ -1,1 +1,14 @@
-<p>carousel works!</p>
+<ngx-slick-carousel
+  id="carousel-de-screenshots"
+  class="carousel"
+  #slickModal="slick-carousel"
+  [config]="slideConfig"
+  (init)="slickInit($event)"
+  (breakpoint)="breakpoint($event)"
+  (afterChange)="afterChange($event)"
+  (beforeChange)="beforeChange($event)"
+>
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img class="screenshot" src="{{ slide.img }}" alt="screenshot">
+  </div>
+</ngx-slick-carousel>
