@@ -7,7 +7,8 @@ const routes: Routes = [
     redirectTo: '/lp1',
     pathMatch: 'full'
   },
-  { path: 'lp1', loadChildren: () => import('./modules/lp1/lp1.module').then(m => m.Lp1Module) }
+  { path: 'lp1', loadChildren: () => import('./modules/lp1/lp1.module').then(m => m.Lp1Module) },
+  { path: 'oferta', loadChildren: () => import('./modules/oferta/oferta.module').then(m => m.OfertaModule) }
 ];
 
 @NgModule({
