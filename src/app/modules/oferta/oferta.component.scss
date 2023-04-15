@@ -27,3 +27,19 @@ div#vagas-limitadas-alert {
 .example-accordion-item-description {
   margin: auto 0;
 }
+
+section#bonus-exclusivos-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  div.app-Content-Container {
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      li {
+
+      }
+    }
+  }
+}
