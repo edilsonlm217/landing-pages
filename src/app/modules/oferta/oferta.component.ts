@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class OfertaComponent {
 
+  items = ['Entenda o motivo'];
+  expandedIndex = 0;
+
 }
