@@ -7,10 +7,18 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
   slides = [
-    { img: "http://mk-edge.com.br/images/Screenshot_20230310_144646_MK-Edge.jpg" },
-    { img: "http://mk-edge.com.br/images/Screenshot_20230310_144706_MK-Edge.jpg" },
-    { img: "http://mk-edge.com.br/images/Screenshot_20230310_144646_MK-Edge.jpg" },
-    { img: "http://mk-edge.com.br/images/Screenshot_20230310_144706_MK-Edge.jpg" }
+    { img: "../../../assets/Screenshot_20230415_165656_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165740_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165804_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165820_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165843_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165903_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165922_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_165944_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_170016_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_170022_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_170058_MK-Edge.jpg" },
+    { img: "../../../assets/Screenshot_20230415_170109_MK-Edge.jpg" },
   ];
 
   slideConfig = { "slidesToShow": 1, "slidesToScroll": 1, infinite: false, };
