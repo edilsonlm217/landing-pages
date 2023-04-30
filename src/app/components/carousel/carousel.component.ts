@@ -7,18 +7,17 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
   slides = [
-    { img: "../../../assets/Screenshot_20230415_165656_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165740_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165804_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165820_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165843_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165903_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165922_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_165944_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_170016_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_170022_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_170058_MK-Edge.jpg" },
-    { img: "../../../assets/Screenshot_20230415_170109_MK-Edge.jpg" },
+    { img: "../../../assets/mk-edge-screenshot-1.png" },
+    { img: "../../../assets/mk-edge-screenshot-2.png" },
+    { img: "../../../assets/mk-edge-screenshot-3.png" },
+    { img: "../../../assets/mk-edge-screenshot-4.png" },
+    { img: "../../../assets/mk-edge-screenshot-5.png" },
+    { img: "../../../assets/mk-edge-screenshot-6.png" },
+    { img: "../../../assets/mk-edge-screenshot-7.png" },
+    { img: "../../../assets/mk-edge-screenshot-8.png" },
+    { img: "../../../assets/mk-edge-screenshot-9.png" },
+    { img: "../../../assets/mk-edge-screenshot-10.png" },
+    { img: "../../../assets/mk-edge-screenshot-111.png" },
   ];
 
   slideConfig = { "slidesToShow": 1, "slidesToScroll": 1, infinite: false, };
